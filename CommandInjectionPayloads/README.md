@@ -7,7 +7,7 @@ a vulnerable application. If successful, the payload injected by an attacker is 
 
 The reason that these attacks are still alive is because of their independency from both, the **OS** and the **programming language**.  
 
-The exact degree of risk is strictly associated with the security context of given environment, in which the command is executed.
+The exact degree of risk is strictly associated with the security context of the given environment, in which the command is executed.
 
 # Remedial measures
 In order to avoid the detrimental impact, secure coding conventions and practices must be implemented in advance.
