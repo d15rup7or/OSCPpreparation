@@ -1,6 +1,5 @@
-# OSCPpreparation Cheatsheet
+# d15rup7or OSCPpreparation Cheatsheet
 The following cheatsheet was prepared while pursuing OSCP
-
 
 ## Port Redirection
 When in NAT the VMs have got a virtual IP in a private network (RFC1918 IP range) - not routable and accessible from the outside
