@@ -3,6 +3,7 @@ The following cheatsheet was prepared for my OSCP journey
 
 ## Table of contents
 * <a href="#useful-tools-on-kali)">[Useful tools (on Kali)](#useful-tools-on-kali)</a>
+  * [Nmap](#nmap)
 * <a href="#ports-discovery-without-nmap">[Ports discovery without nmap](#ports-discovery-without-nmap)</a>
 * <a href="#web-directories-files-scanner">[Web directories/files scanner](#web-directories-files-scanner)</a>
 * <a href="#reverse-shells">[Reverse shells](#reverse-shells)</a>
@@ -19,6 +20,12 @@ The following cheatsheet was prepared for my OSCP journey
 Useful sources with links
 
 ## Useful tools (on Kali)[⤴](#table-of-contents)
+
+### Nmap
+
+```
+nmap -sS -p 21 192.168.56.101 --script=ftp-anon
+```
 
 #### create_pattern
 ```
